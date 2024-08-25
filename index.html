@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Bootstrap</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center p-4">
+        <h1>Bem-vindo à Minha Página</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Minha Página</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+    <main class="container mt-5">
+        <div class="row">
+            <!-- Seção 1 -->
+            <div class="col-sm-12 col-md-4">
+                <div class="bg-light text-dark p-3 mb-4 border rounded">
+                    <h2>Seção 1: Introdução ao Bootstrap</h2>
+                    <p>O Bootstrap é um dos frameworks front-end mais populares para o desenvolvimento de interfaces web. Ele fornece componentes pré-estilizados e um sistema de grid flexível que facilita a criação de layouts responsivos. Com sua ampla gama de opções de personalização, o Bootstrap ajuda os desenvolvedores a criar sites atraentes e funcionais rapidamente.</p>
+                </div>
+            </div>
+            <!-- Seção 2 -->
+            <div class="col-sm-12 col-md-4">
+                <div class="bg-secondary text-white p-3 mb-4 border rounded">
+                    <h2>Seção 2: Vantagens do Uso do Bootstrap</h2>
+                    <p>O uso do Bootstrap traz várias vantagens, como consistência de design, fácil manutenção e suporte a todos os principais navegadores. Além disso, sua vasta comunidade de desenvolvedores significa que você pode encontrar suporte e recursos facilmente. O Bootstrap também é constantemente atualizado para incluir as últimas tendências e melhores práticas de design.</p>
+                </div>
+            </div>
+            <!-- Seção 3 -->
+            <div class="col-sm-12 col-md-4">
+                <div class="bg-info text-white p-3 mb-4 border rounded">
+                    <h2>Seção 3: Como Começar com Bootstrap</h2>
+                    <p>Começar com o Bootstrap é simples. Basta adicionar os links de CDN para os arquivos CSS e JavaScript do Bootstrap em seu projeto HTML. Você pode então começar a usar as classes do Bootstrap para estilizar seus elementos e criar layouts responsivos. Experimente combinar diferentes componentes para ver como eles funcionam juntos e ajuste-os conforme necessário para atender às suas necessidades específicas.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p>&copy; <span id="ano-atual"></span> Minha Página. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script do Bootstrap e JavaScript personalizado -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
